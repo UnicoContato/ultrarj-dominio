@@ -220,22 +220,29 @@ document.addEventListener('DOMContentLoaded', () => {
         let autoPlayInterval;
 
         for (let i = 1; i <= totalImages; i++) {
+            const unitName = units[i-1] ? units[i-1].name : "Ultra Popular RJ";
+
             const slide = document.createElement('div');
             slide.className = 'w-full h-full flex-shrink-0 relative';
             slide.innerHTML = `
-                <img src="img/galeria_${i}.jpg" alt="Foto Interna ${i}" class="w-full h-full object-cover" loading="lazy">
-                <div class="absolute bottom-0 left-0 p-8">
-                    <span class="text-white/80 text-sm font-light tracking-widest uppercase backdrop-blur-sm bg-black/30 px-3 py-1 rounded-full">Ultra Popular RJ</span>
+                <img src="img/galeria_${i}.jpg" alt="Foto ${unitName}" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute bottom-0 left-0 p-4 md:p-8 w-full bg-gradient-to-t from-black/80 to-transparent">
+                    <span class="text-white text-lg md:text-xl font-bold tracking-wide flex items-center gap-2">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-ultraYellow"></i>
+                        ${unitName}
+                    </span>
                 </div>
             `;
             track.appendChild(slide);
 
             const dot = document.createElement('button');
             dot.className = `w-2.5 h-2.5 rounded-full transition-all duration-300 ${i === 1 ? 'bg-ultraYellow w-8' : 'bg-white/50 hover:bg-white'}`;
-            dot.ariaLabel = `Ir para foto ${i}`;
+            dot.ariaLabel = `Ir para unidade ${unitName}`;
             dot.addEventListener('click', () => goToSlide(i - 1));
             dotsContainer.appendChild(dot);
         }
+        
+        lucide.createIcons();
 
         const updateCarousel = () => {
             track.style.transform = `translateX(-${currentSlide * 100}%)`;
