@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const units = [
         {
             name: "Unidade Santa Cruz",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Santa Cruz - Rio de Janeiro",
             address: "Est. Vasconcelos, 480 - Loja B, CEP 23.530-814",
             phone: "(21) 3309-3966",
@@ -60,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Sepetiba I",
+            razao: "FARMACIA DIAS DE SEPETIBA LTDA - ME",
             neighborhood: "Sepetiba - Rio de Janeiro",
             address: "Est. de Sepetiba, 5775, CEP 23.545-003",
             phone: "(21) 2583-4263",
@@ -70,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Guaratiba (Magarça)",
+            razao: "DROGARIAS DIAS DO MAGARCA LTDA",
             neighborhood: "Guaratiba - Rio de Janeiro",
             address: "Est. do Magarça, 2795 - Loja B, CEP 23.035-380",
             phone: "(21) 3271-6675",
@@ -80,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Campo Grande",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Campo Grande - Rio de Janeiro",
             address: "Est. Cachamorra, 409 - Loja A, CEP 23.040-151",
             phone: "(21) 2222-2222",
@@ -90,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Guaratiba (Ilha)",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Guaratiba - Rio de Janeiro",
             address: "Est. da Ilha, 2130, CEP 23.020-230",
             phone: "(21) 2222-2222",
@@ -100,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Guaratiba (Matriz)",
+            razao: "FARMACIA DIAS DE GUARATIBA LTDA",
             neighborhood: "Guaratiba - Rio de Janeiro",
             address: "Est. da Matriz, 2275 - Lt 25 Qd 258, CEP 23.020-715",
             phone: "(21) 3309-3966",
@@ -110,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Sepetiba II (Piaí)",
+            razao: "DROGARIA ATRATIVA DE SEPETIBA LTDA",
             neighborhood: "Sepetiba - Rio de Janeiro",
             address: "Est. do Piaí, 4672 A - Loja D, CEP 23.530-610",
             phone: "(21) 2408-8020",
@@ -120,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Guaratiba (Pedra 1)",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Guaratiba - Rio de Janeiro",
             address: "Est. da Pedra, 4953 - Loja B, CEP 23.030-380",
             phone: "(21) 2408-8020",
@@ -130,6 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Sepetiba III",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Sepetiba - Rio de Janeiro",
             address: "R. Jose Fernandes, 1860 - Loja A, CEP 23.535-450",
             phone: "(21) 9999-9999",
@@ -140,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Pedra de Guaratiba",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Pedra de Guaratiba - Rio de Janeiro",
             address: "Est. da Matriz, 2034 - Lt 1 Qd 135 Loja A, CEP 23.545-323",
             phone: "(21) 2635-4903",
@@ -150,6 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Guaratiba (Pilar)",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Guaratiba - Rio de Janeiro",
             address: "Av. Pilar do Sul, 313 - Lt 3 Qd 12, CEP 23.033-160",
             phone: "(21) 2408-8020",
@@ -160,6 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: "Unidade Guaratiba (Pedra 2)",
+            razao: "DROGARIAS DIAS LIMA JH LTDA",
             neighborhood: "Guaratiba - Rio de Janeiro",
             address: "Est. da Pedra, 7128 - Loja B C, CEP 23.030-380",
             phone: "(21) 2408-8020",
